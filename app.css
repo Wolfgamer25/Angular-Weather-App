@@ -1,0 +1,38 @@
+#logo{
+  width:200px;
+}
+#search{
+  margin-top:200px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+
+}
+#search h2{
+  font-weight: bold;
+}
+
+body{
+  background-image: url(http://cdn.paper4pc.com/images/hdr-sunset-sunrise-trees-reflection-wallpaper-1.jpg);
+  background-size: cover;
+}
+.top-bar{
+background: rgb(236, 88, 64);
+  }
+.card-divider{
+  background:  rgb(236, 88, 64);
+}
+.card{
+  background-color: rgb(253, 185, 178);
+}
+.badge{
+background-color:   rgb(253, 185, 178);
+}
+h1 , span{
+ color: white;
+}
+#back-button{
+  color: white;
+}
+.button{
+  background-color: rgb(236, 88, 64);
+}

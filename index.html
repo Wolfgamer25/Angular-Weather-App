@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app='WeatherApp'>
+  <head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="foundation.min.css"/>
+  <link rel='stylesheet'href="app.css" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" />
+    <title></title>
+    <!--load Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.1/angular-resource.min.js'></script>
+    <script src='app.js'></script>
+    <script src="controller.js"></script>
+    <script src="directives.js"></script>
+    <script src="routes.js"></script>
+    <script src="services.js"></script>
+    <script src="https://use.fontawesome.com/ef44a99fba.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class='top-bar'>
+        <div class='top-bar-left'>
+
+<img src="https://s.graphiq.com/rx/img/product_page/weatherdb-logo-white.png" id='logo'  />
+      </div>
+
+    </header>
+
+    <div ng-view>
+
+    </div>
+  </body>
+
+</html>
